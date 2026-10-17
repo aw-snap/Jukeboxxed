@@ -2,7 +2,7 @@
 
 Quiplash, but you answer with songs.
 
-A party game for 3 to 8 players in the same room. The TV shows the game and plays the music. Everyone plays on their phone.
+A party game for 4 to 8 players in the same room. The TV shows the game and plays the music. Everyone plays on their phone.
 
 > **Prompt:** What gas station sushi sounds like
 >
@@ -16,7 +16,7 @@ A party game for 3 to 8 players in the same room. The TV shows the game and play
 
 ### 1. Write prompts
 
-Every player writes one prompt by filling in a template:
+At the start of each round, every player writes one prompt by filling in a template:
 
 - The song playing when ___
 - ___'s theme song
@@ -33,7 +33,9 @@ The blank can be anything: a friend's name, a food, a place, a situation. Writin
 
 Each prompt goes to two players, never the one who wrote it. Everyone answers two prompts by searching for a song on their phone and tapping it.
 
-Stuck? **Safety Song** submits a random song. Sometimes it wins.
+Songs that have already played this game are greyed out in search, so the same song can't come up every round.
+
+Stuck? **Safety Song** submits a random song. It scores normally but can't earn the JUKEBOXXED! bonus.
 
 ### 3. Head-to-heads
 
@@ -45,7 +47,9 @@ Everyone except the two answerers votes. Then the TV shows who picked what.
 
 Every answer is three songs, like a 3-song playlist. Everyone writes a prompt from Thriplash templates, for example "Three songs for Sam's funeral".
 
-Players are paired up (one group of three if the count is odd), and each group answers one prompt none of them wrote. The playlists go head-to-head: each plays as a set, then everyone else votes.
+Players are paired up (one group of three if the count is odd), and each group answers one prompt none of them wrote. The playlists go head-to-head: each plays as a quick-cut set, 8 seconds per song, then everyone else votes.
+
+If two playlists share a song, that song is cut from both and they compete on the rest.
 
 ## Scoring
 
@@ -56,7 +60,7 @@ Players are paired up (one group of three if the count is odd), and each group a
 | Final | 3000 per head-to-head, split by share of the vote |
 
 - **JUKEBOXXED!** Win every vote in a head-to-head: +250 in round 1, +500 in round 2, +750 in the final.
-- **Jinx.** Both players pick the same song: it plays once, there's no vote, and both score 0.
+- **Jinx.** Both players pick the same song (or the exact same playlist in the final): it plays once, there's no vote, and both score 0.
 
 These numbers are a starting point for playtesting.
 
@@ -69,10 +73,7 @@ These numbers are a starting point for playtesting.
 - **Everyone hears it together.** The whole room reacts at the same moment.
 - **Templates beat the blank box.** Writing a prompt means filling one blank, not inventing a joke from nothing.
 
-## Open questions
+## To check in playtests
 
-- Is 15 seconds enough for a song to land, and is 20 seconds in the right place to start?
-- 8 players means 8 head-to-heads per round: 4 minutes of music, about 6 with voting. Does that drag?
-- The final plays 3 songs per player, so 6 minutes of music with 8 players. Shorter clips in the final?
-- Should a Safety Song score less?
-- In the final, is it a Jinx if two playlists share one song, or only if they match completely?
+- Is 15 seconds from 20 seconds in enough for a song to land?
+- With 8 players a round has 8 head-to-heads, about 4 minutes of music and 6 with voting. Does a full game drag?
