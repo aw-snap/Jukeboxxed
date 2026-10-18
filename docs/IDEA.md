@@ -1,79 +1,64 @@
 # Jukeboxxed
 
-Quiplash, but you answer with songs.
+Pick a song that exactly half the room can name.
 
 A party game for 4 to 8 players in the same room. The TV shows the game and plays the music. Everyone plays on their phone.
 
-> **Prompt:** What gas station sushi sounds like
+> **Category:** 2000s pop-punk
 >
-> **Song A:** Toxic, Britney Spears
+> *All the Small Things* (blink-182): everyone names it. The picker scores 0.
 >
-> **Song B:** Ring of Fire, Johnny Cash
+> *Ocean Avenue* (Yellowcard): half the room gets it. Full points.
 >
-> Everyone else votes.
+> A deep cut nobody knows: the picker scores 0.
 
-## Rounds 1 and 2
+## How a round goes
 
-### 1. Write prompts
+1. **Category.** Everyone gets the same category, such as a genre, a decade or "songs from movies".
+2. **Pick.** Everyone secretly picks a song from the category on their phone.
+3. **Play.** The songs play one at a time in random order, 15 seconds each from the very start of the song. The player who picked it sits that one out.
+4. **Guess.** Everyone else types the title before the clip ends. A wrong guess can be retyped.
+5. **Reveal.** The TV shows the title, who picked it, who got it, and how the room split.
 
-At the start of each round, every player writes one prompt by filling in a template:
+A game is 3 rounds, so everyone picks 3 songs.
 
-- The song playing when ___
-- ___'s theme song
-- What ___ sounds like
-- ___'s villain origin song
-- The song stuck in ___'s head at 3am
-- The worst song to play at ___
-- A breakup song for ___
-- Walk-up music for ___
+### What counts as a correct guess
 
-The blank can be anything: a friend's name, a food, a place, a situation. Writing a prompt from scratch is also allowed. If someone runs out of time, the game picks a backup prompt for them.
+The distinctive words of the title are enough. Typos are forgiven, and filler like "The", "feat." or "(Remastered)" doesn't matter.
 
-### 2. Answer with songs
+- "small things" gets *All the Small Things*
+- "brightside" gets *Mr. Brightside*
+- "love" does not get *Crazy in Love*
 
-Each prompt goes to two players, never the one who wrote it. Everyone answers two prompts by searching for a song on their phone and tapping it.
+### Same song twice
 
-Songs that have already played this game are greyed out in search, so the same song can't come up every round.
-
-Stuck? **Safety Song** submits a random song. It scores normally but can't earn the JUKEBOXXED! bonus.
-
-### 3. Head-to-heads
-
-For each prompt, the TV shows the prompt and plays both songs, 15 seconds each, starting 20 seconds in. The title and artist are on screen while each song plays. Answers stay anonymous until the vote is in.
-
-Everyone except the two answerers votes. Then the TV shows who picked what.
-
-## Final round: Thriplash
-
-Every answer is three songs, like a 3-song playlist. Everyone writes a prompt from Thriplash templates, for example "Three songs for Sam's funeral".
-
-Players are paired up (one group of three if the count is odd), and each group answers one prompt none of them wrote. The playlists go head-to-head: each plays as a quick-cut set, 8 seconds per song, then everyone else votes.
-
-If two playlists share a song, that song is cut from both and they compete on the rest.
+If two players pick the same song, it plays once, both sit out, and both get the picker points.
 
 ## Scoring
 
-| Round | Points |
-|---|---|
-| 1 | 1000 per head-to-head, split by share of the vote |
-| 2 | 2000 per head-to-head, split by share of the vote |
-| Final | 3000 per head-to-head, split by share of the vote |
+**Guessers** get 200 points for a correct guess at the start of the clip, falling to 100 at 15 seconds.
 
-- **JUKEBOXXED!** Win every vote in a head-to-head: +250 in round 1, +500 in round 2, +750 in the final.
-- **Jinx.** Both players pick the same song (or the exact same playlist in the final): it plays once, there's no vote, and both score 0.
+**The picker** scores up to 1000 per song: the most for an even split, falling to 0 if nobody or everybody gets it. Speed doesn't matter here, only who got it. With 6 guessers:
 
-These numbers are a starting point for playtesting.
+| Guessers who got it | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|---|
+| Picker scores | 0 | 333 | 667 | 1000 | 667 | 333 | 0 |
+
+Picking is worth more than guessing, so reading the room wins the game, not just knowing songs. These numbers are a starting point for playtesting.
 
 ## Why it's fun
 
-- **Nobody performs.** No singing, drawing or writing jokes on the spot. The joke is the song you pick, so quiet players can win.
-- **The title is the punchline.** It's on screen while the song plays, so the joke lands even for people who don't know the song.
-- **The artist takes the blame.** "I didn't call you toxic, Britney did."
-- **Fit beats taste.** The vote is about which song fits the prompt, so a casual player's obvious hit can beat a music nerd's deep cut.
-- **Everyone hears it together.** The whole room reacts at the same moment.
-- **Templates beat the blank box.** Writing a prompt means filling one blank, not inventing a joke from nothing.
+- **Two skills that pull against each other.** Guessing rewards knowing songs. Picking rewards knowing what other people know, so music nerds can't just show off, and casual players are often better judges of "half-famous".
+- **The reveal is about your friends.** "Wait, only Sam and Maya know this?" The split itself is the story.
+- **Both ways of missing are funny.** Too famous, and the whole room types it in two seconds. Too obscure, and the room sits in silence while the picker squirms.
+- **Nobody waits for a turn.** You guess on every song except your own.
+- **It changes with the group.** What counts as "half-famous" depends on who's playing, so the same songs play differently with a different room.
+
+## After the MVP
+
+- Different categories per player, or a choice of 2 categories each.
 
 ## To check in playtests
 
-- Is 15 seconds from 20 seconds in enough for a song to land?
-- With 8 players a round has 8 head-to-heads, about 4 minutes of music and 6 with voting. Does a full game drag?
+- Are 15 seconds from the start enough, or do long intros make too many songs impossible to name?
+- Does the speed bonus let fast typers outscore good pickers?
