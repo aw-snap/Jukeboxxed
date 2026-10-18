@@ -1,0 +1,13 @@
+{
+  "source_path": "/mnt/data/Code/Github/Jukeboxxed/docs/PLAN.md",
+  "type": "DOC",
+  "confidence": "medium",
+  "manifest_override": false,
+  "title": "MVP plan",
+  "summary": "High-level MVP plan for the Split the Room game: components, game flow, decisions table, milestones with done-when criteria, exclusions, and deferred choices.",
+  "scope": ["MVP", "TV page", "phone page", "server", "answer matcher", "Deezer previews", "game flow", "milestones"],
+  "cross_refs": ["IDEA.md", "https://developer.spotify.com/policy"],
+  "locked": false,
+  "precedence": null,
+  "notes": "Mixed signals: a Decisions table (ADR-like but no Status/Context/Consequences), milestone 'Done when' criteria and a Not-in-MVP list (PRD-like but no user stories or acceptance criteria), and high-level component/flow diagrams (SPEC-like but no schemas or contracts). No single dominant signal; classified as DOC (planning/roadmap context). Synthesizer may mine the Decisions table and milestones."
+}

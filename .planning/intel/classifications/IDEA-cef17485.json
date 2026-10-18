@@ -1,0 +1,13 @@
+{
+  "source_path": "/mnt/data/Code/Github/Jukeboxxed/docs/IDEA.md",
+  "type": "PRD",
+  "confidence": "medium",
+  "manifest_override": false,
+  "title": "Jukeboxxed",
+  "summary": "Game concept for a 4-8 player same-room party game where players pick songs that exactly half the room can name, with round flow, guess rules and scoring.",
+  "scope": ["party game", "round flow", "song picking", "guess matching", "scoring", "off-category voting", "post-MVP ideas", "playtest questions"],
+  "cross_refs": [],
+  "locked": false,
+  "precedence": null,
+  "notes": "No frontmatter, no ADR/SPEC filename convention. Content describes product behavior, rules, scoring numbers (flagged as playtest starting point), non-MVP items and open playtest questions: requirements-like, not implementation, so PRD. No user-story or acceptance-criteria headings, hence medium. Filename slug lacks the SHA-256 suffix because hashing is not possible with the permitted tools (Read, Write, Grep, Glob); the orchestrator may rename."
+}
