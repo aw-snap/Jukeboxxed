@@ -16,9 +16,9 @@ A party game for 4 to 8 players in the same room. The TV shows the game and play
 
 1. **Category.** Everyone gets the same category, such as a genre, a decade or "songs from movies".
 2. **Pick.** Everyone secretly picks a song from the category on their phone.
-3. **Play.** The songs play one at a time in random order, 15 seconds each from the very start of the song. The player who picked it sits that one out.
+3. **Play.** The songs play one at a time in random order, 15 seconds each. A clip is the start of the song's preview, which is usually near the chorus. The player who picked it sits that one out.
 4. **Guess.** Everyone else types the title before the clip ends. A wrong guess can be retyped.
-5. **Reveal.** The TV shows the title, who picked it, who got it, and how the room split.
+5. **Reveal.** The TV shows the title, who picked it, who got it, and how the room split. Everyone except the picker votes on whether the song fits the category.
 
 A game is 3 rounds, so everyone picks 3 songs.
 
@@ -29,6 +29,10 @@ The distinctive words of the title are enough. Typos are forgiven, and filler li
 - "small things" gets *All the Small Things*
 - "brightside" gets *Mr. Brightside*
 - "love" does not get *Crazy in Love*
+
+### Off-category songs
+
+There's no filter on picks; the room keeps everyone honest. If most players vote that a song doesn't fit the category, the picker scores 0 for it. Guessers keep their points.
 
 ### Same song twice
 
@@ -57,8 +61,9 @@ Picking is worth more than guessing, so reading the room wins the game, not just
 ## After the MVP
 
 - Different categories per player, or a choice of 2 categories each.
+- Clips from the song's real start, where intros make songs harder to name.
 
 ## To check in playtests
 
-- Are 15 seconds from the start enough, or do long intros make too many songs impossible to name?
+- Does starting near the chorus make songs too easy to split?
 - Does the speed bonus let fast typers outscore good pickers?
